@@ -1,0 +1,7 @@
+{
+  "pipeline_version": "1.1.0",
+  "asset": "SM_Dungeon_Floor_A",
+  "blender": "5.0.1",
+  "texture_size": 2048,
+  "glb_texture_format": "webp"
+}

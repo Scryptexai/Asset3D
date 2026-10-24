@@ -1,0 +1,20 @@
+{
+  "key": "pillar",
+  "name": "SM_Dungeon_Pillar_A",
+  "backend": "recon-sdf-marchingcubes",
+  "source_image": "refs/raw/pillar.png",
+  "glb": "raw_glb/SM_Dungeon_Pillar_A.glb",
+  "dims_m": [
+    1.0,
+    1.0,
+    3.0
+  ],
+  "raw_tris": 22324,
+  "raw_verts": 11164,
+  "watertight": true,
+  "textures": {
+    "albedo": "SM_Dungeon_Pillar_A_raw_albedo.png",
+    "normal": "SM_Dungeon_Pillar_A_raw_normal.png",
+    "orm": "SM_Dungeon_Pillar_A_raw_orm.png"
+  }
+}

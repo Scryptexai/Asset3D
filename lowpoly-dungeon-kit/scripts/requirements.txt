@@ -1,0 +1,33 @@
+# ---------------------------------------------------------------------------
+# Low-Poly Modular Dungeon Kit — Python dependencies
+# ---------------------------------------------------------------------------
+# Core (always required): the offline reconstruction backend + Blender helpers.
+numpy>=1.24,<2.0        # <2.0 is required by Blender's bpy module
+scipy>=1.10
+scikit-image>=0.21      # marching cubes + morphology
+pillow>=10.0            # contact sheets / atlas handling
+
+# Blender itself is either a system binary...
+#   export BLENDER_BIN=/path/to/blender
+# ...or the official Python module (match your Python version):
+# bpy>=4.2
+
+# ---------------------------------------------------------------------------
+# Optional: neural image-to-3D engines (GPU workstation only)
+# ---------------------------------------------------------------------------
+# Both engines download weights from Hugging Face and need a CUDA device.
+# Install the engine you intend to use with its own requirements file:
+#
+#   Stable Fast 3D (primary)
+#     pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#     pip install -r external/stable-fast-3d/requirements.txt
+#     pip install external/stable-fast-3d/texture_baker external/stable-fast-3d/uv_unwrapper
+#
+#   TripoSR (fallback)
+#     pip install -r external/TripoSR/requirements.txt
+#
+# Shared extras used by both adapters:
+trimesh>=4.0
+omegaconf>=2.3
+# rembg>=2.0            # optional: better background matting (falls back to
+#                       # the built-in silhouette segmentation when absent)

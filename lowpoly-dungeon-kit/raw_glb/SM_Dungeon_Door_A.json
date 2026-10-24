@@ -1,0 +1,20 @@
+{
+  "key": "door",
+  "name": "SM_Dungeon_Door_A",
+  "backend": "recon-sdf-marchingcubes",
+  "source_image": "refs/raw/door.png",
+  "glb": "raw_glb/SM_Dungeon_Door_A.glb",
+  "dims_m": [
+    2.0,
+    0.5,
+    3.0
+  ],
+  "raw_tris": 70524,
+  "raw_verts": 35264,
+  "watertight": true,
+  "textures": {
+    "albedo": "SM_Dungeon_Door_A_raw_albedo.png",
+    "normal": "SM_Dungeon_Door_A_raw_normal.png",
+    "orm": "SM_Dungeon_Door_A_raw_orm.png"
+  }
+}

@@ -1,0 +1,108 @@
+LOW-POLY MODULAR DUNGEON KIT
+COMMERCIAL LICENSE AGREEMENT (Single Seat)
+Version 1.0 — effective 2026-10-24
+
+Copyright (c) 2026 Asset3D Studio. All rights reserved.
+
+-------------------------------------------------------------------------------
+1. GRANT OF LICENSE
+-------------------------------------------------------------------------------
+Upon purchase, Asset3D Studio grants you a non-exclusive, non-transferable,
+worldwide, perpetual license to use the Assets — the 3D models (SM_*), PBR
+textures (T_*), collision meshes and preview renders contained in the
+"exports/" directory of this package (collectively, "the Assets") — in an
+unlimited number of commercial and non-commercial projects, including but not
+limited to:
+
+  a) video games for PC, console, mobile, VR/AR and web;
+  b) real-time visualisations, architectural walkthroughs and simulations;
+  c) film, animation, broadcast and streaming productions;
+  d) tabletop/VTT modules, printed or digital;
+  e) educational and personal projects.
+
+One license covers one individual ("Seat"). A studio or team must purchase one
+Seat per artist or developer who access the Assets. Seat transfers are not
+permitted.
+
+-------------------------------------------------------------------------------
+2. PERMITTED MODIFICATIONS
+-------------------------------------------------------------------------------
+You may modify, re-texture, re-rig, animate, merge, bake, re-export and
+otherwise adapt the Assets for use inside your own projects. Modified Assets
+remain subject to this Agreement.
+
+-------------------------------------------------------------------------------
+3. RESTRICTIONS
+-------------------------------------------------------------------------------
+You may NOT:
+
+  a) redistribute, resell, sublicense, rent, lease or give away the Assets (or
+     modified versions thereof) as standalone assets, in an asset pack, in a
+     template, in a kit, or on any marketplace, even if modified;
+  b) include the Assets in a product whose primary value is the assets
+     themselves (e.g. a model pack, a character/level generator content
+     library) rather than a game, experience or production;
+  c) use the Assets to train, fine-tune or otherwise develop machine-learning
+     models for asset generation, or to benchmark such models, without prior
+     written permission;
+  d) claim authorship of the unmodified Assets;
+  e) use the Assets in NFTs or in any blockchain-based resale scheme where the
+     Asset itself (or a derivative) is the traded token;
+  f) use the Assets in content that is illegal, defamatory, or that depicts
+     real people in a defamatory manner.
+
+-------------------------------------------------------------------------------
+4. ATTRIBUTION
+-------------------------------------------------------------------------------
+Attribution is not required, but is appreciated:
+"Low-Poly Modular Dungeon Kit © Asset3D Studio".
+
+-------------------------------------------------------------------------------
+5. SOURCE SCRIPTS
+-------------------------------------------------------------------------------
+The Python/Blender pipeline in "scripts/" is licensed separately under the MIT
+License and may be reused, modified and redistributed freely; the MIT grant does
+not extend to the Assets produced by it.
+
+-------------------------------------------------------------------------------
+6. AI-ASSISTED CONTENT DISCLOSURE
+-------------------------------------------------------------------------------
+The concept artwork in "refs/" was produced with a generative image model, and
+the base meshes in "raw_glb/" were produced by an automated image-to-3D
+stage (Stable Fast 3D / TripoSR where a CUDA device and model weights are
+available, otherwise the kit's offline silhouette-to-SDF reconstruction). All delivered game assets in "exports/" were then
+retopologised, UV-unwrapped, texture-baked, LOD-reduced and validated by human-
+supervised automated tooling specific to this kit. No third-party copyrighted
+work was used as training or input material by the publisher, to the best of the
+publisher's knowledge. If a marketplace requires a generative-AI disclosure,
+this paragraph may be reproduced verbatim in the product description.
+
+-------------------------------------------------------------------------------
+7. WARRANTY AND LIABILITY
+-------------------------------------------------------------------------------
+The Assets are provided "AS IS", without warranty of any kind, express or
+implied, including but not limited to the warranties of merchantability, fitness
+for a particular purpose and non-infringement. In no event shall the author be
+liable for any claim, damages or other liability arising from the use of the
+Assets. The publisher's total liability under this Agreement shall not exceed
+the amount paid for the license.
+
+-------------------------------------------------------------------------------
+8. TERMINATION
+-------------------------------------------------------------------------------
+This license terminates automatically if you breach any term. Upon termination
+you must cease use and delete all copies of the Assets. Sections 3, 6 and 7
+survive termination.
+
+-------------------------------------------------------------------------------
+9. GOVERNING LAW
+-------------------------------------------------------------------------------
+This Agreement is governed by the laws of the Republic of Indonesia, without
+regard to its conflict-of-law provisions.
+
+-------------------------------------------------------------------------------
+
+Contact: support@asset3d.studio
+Product: Low-Poly Modular Dungeon Kit v1.0.0
+Contents: 5 modular assets, 4 LODs each, 1 collision mesh each,
+          3 × 2048² PBR maps per asset (Albedo / Normal / ORM).

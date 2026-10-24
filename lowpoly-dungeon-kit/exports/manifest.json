@@ -1,0 +1,314 @@
+{
+  "kit": "Low-Poly Modular Dungeon Kit",
+  "version": "1.0.0",
+  "pipeline_version": "1.1.0",
+  "texture_size": 2048,
+  "lod_ratios": {
+    "LOD0": 1.0,
+    "LOD1": 0.5,
+    "LOD2": 0.2,
+    "LOD3": 0.05
+  },
+  "assets": [
+    {
+      "key": "wall",
+      "name": "SM_Dungeon_Wall_A",
+      "category": "modular",
+      "tags": [
+        "modular",
+        "architecture",
+        "wall"
+      ],
+      "dimensions_m": [
+        4.0,
+        0.45,
+        3.0
+      ],
+      "source": {
+        "reference": "refs/raw/wall.png",
+        "raw_glb": "raw_glb/SM_Dungeon_Wall_A.glb",
+        "raw_backend": "recon-sdf-marchingcubes"
+      },
+      "geometry": {
+        "high_poly_tris": 76068,
+        "lod_tris": {
+          "LOD0": 1378,
+          "LOD1": 678,
+          "LOD2": 270,
+          "LOD3": 66
+        },
+        "collision_tris": 62,
+        "uv_islands_lod0": 175,
+        "decimate_passes": 1
+      },
+      "validation": {
+        "non_manifold_lod0": 0,
+        "non_manifold_all_lods": 0,
+        "watertight_lod0": true,
+        "lod_chain_complete": true,
+        "has_collision": true
+      },
+      "textures": {
+        "Albedo": "exports/Textures/T_Dungeon_Wall_A_Albedo_2048.png",
+        "Normal": "exports/Textures/T_Dungeon_Wall_A_Normal_2048.png",
+        "ORM": "exports/Textures/T_Dungeon_Wall_A_ORM_2048.png"
+      },
+      "files": {
+        "models": [
+          "exports/Models/SM_Dungeon_Wall_A_LOD0.fbx",
+          "exports/Models/SM_Dungeon_Wall_A_LOD1.fbx",
+          "exports/Models/SM_Dungeon_Wall_A_LOD2.fbx",
+          "exports/Models/SM_Dungeon_Wall_A_LOD3.fbx",
+          "exports/Models/SM_Dungeon_Wall_A_Collision.fbx"
+        ],
+        "godot": [
+          "exports/Godot/SM_Dungeon_Wall_A_LOD0.glb",
+          "exports/Godot/SM_Dungeon_Wall_A_LOD1.glb",
+          "exports/Godot/SM_Dungeon_Wall_A_LOD2.glb",
+          "exports/Godot/SM_Dungeon_Wall_A_LOD3.glb",
+          "exports/Godot/SM_Dungeon_Wall_A_Collision.glb"
+        ]
+      }
+    },
+    {
+      "key": "floor",
+      "name": "SM_Dungeon_Floor_A",
+      "category": "modular",
+      "tags": [
+        "modular",
+        "architecture",
+        "floor"
+      ],
+      "dimensions_m": [
+        4.0,
+        4.0,
+        0.35
+      ],
+      "source": {
+        "reference": "refs/raw/floor.png",
+        "raw_glb": "raw_glb/SM_Dungeon_Floor_A.glb",
+        "raw_backend": "recon-sdf-marchingcubes"
+      },
+      "geometry": {
+        "high_poly_tris": 77052,
+        "lod_tris": {
+          "LOD0": 1182,
+          "LOD1": 582,
+          "LOD2": 232,
+          "LOD3": 58
+        },
+        "collision_tris": 62,
+        "uv_islands_lod0": 121,
+        "decimate_passes": 1
+      },
+      "validation": {
+        "non_manifold_lod0": 0,
+        "non_manifold_all_lods": 0,
+        "watertight_lod0": true,
+        "lod_chain_complete": true,
+        "has_collision": true
+      },
+      "textures": {
+        "Albedo": "exports/Textures/T_Dungeon_Floor_A_Albedo_2048.png",
+        "Normal": "exports/Textures/T_Dungeon_Floor_A_Normal_2048.png",
+        "ORM": "exports/Textures/T_Dungeon_Floor_A_ORM_2048.png"
+      },
+      "files": {
+        "models": [
+          "exports/Models/SM_Dungeon_Floor_A_LOD0.fbx",
+          "exports/Models/SM_Dungeon_Floor_A_LOD1.fbx",
+          "exports/Models/SM_Dungeon_Floor_A_LOD2.fbx",
+          "exports/Models/SM_Dungeon_Floor_A_LOD3.fbx",
+          "exports/Models/SM_Dungeon_Floor_A_Collision.fbx"
+        ],
+        "godot": [
+          "exports/Godot/SM_Dungeon_Floor_A_LOD0.glb",
+          "exports/Godot/SM_Dungeon_Floor_A_LOD1.glb",
+          "exports/Godot/SM_Dungeon_Floor_A_LOD2.glb",
+          "exports/Godot/SM_Dungeon_Floor_A_LOD3.glb",
+          "exports/Godot/SM_Dungeon_Floor_A_Collision.glb"
+        ]
+      }
+    },
+    {
+      "key": "pillar",
+      "name": "SM_Dungeon_Pillar_A",
+      "category": "modular",
+      "tags": [
+        "modular",
+        "architecture",
+        "pillar"
+      ],
+      "dimensions_m": [
+        1.0,
+        1.0,
+        3.0
+      ],
+      "source": {
+        "reference": "refs/raw/pillar.png",
+        "raw_glb": "raw_glb/SM_Dungeon_Pillar_A.glb",
+        "raw_backend": "recon-sdf-marchingcubes"
+      },
+      "geometry": {
+        "high_poly_tris": 22324,
+        "lod_tris": {
+          "LOD0": 1476,
+          "LOD1": 726,
+          "LOD2": 290,
+          "LOD3": 72
+        },
+        "collision_tris": 62,
+        "uv_islands_lod0": 36,
+        "decimate_passes": 1
+      },
+      "validation": {
+        "non_manifold_lod0": 0,
+        "non_manifold_all_lods": 0,
+        "watertight_lod0": true,
+        "lod_chain_complete": true,
+        "has_collision": true
+      },
+      "textures": {
+        "Albedo": "exports/Textures/T_Dungeon_Pillar_A_Albedo_2048.png",
+        "Normal": "exports/Textures/T_Dungeon_Pillar_A_Normal_2048.png",
+        "ORM": "exports/Textures/T_Dungeon_Pillar_A_ORM_2048.png"
+      },
+      "files": {
+        "models": [
+          "exports/Models/SM_Dungeon_Pillar_A_LOD0.fbx",
+          "exports/Models/SM_Dungeon_Pillar_A_LOD1.fbx",
+          "exports/Models/SM_Dungeon_Pillar_A_LOD2.fbx",
+          "exports/Models/SM_Dungeon_Pillar_A_LOD3.fbx",
+          "exports/Models/SM_Dungeon_Pillar_A_Collision.fbx"
+        ],
+        "godot": [
+          "exports/Godot/SM_Dungeon_Pillar_A_LOD0.glb",
+          "exports/Godot/SM_Dungeon_Pillar_A_LOD1.glb",
+          "exports/Godot/SM_Dungeon_Pillar_A_LOD2.glb",
+          "exports/Godot/SM_Dungeon_Pillar_A_LOD3.glb",
+          "exports/Godot/SM_Dungeon_Pillar_A_Collision.glb"
+        ]
+      }
+    },
+    {
+      "key": "door",
+      "name": "SM_Dungeon_Door_A",
+      "category": "modular",
+      "tags": [
+        "modular",
+        "architecture",
+        "door"
+      ],
+      "dimensions_m": [
+        2.0,
+        0.5,
+        3.0
+      ],
+      "source": {
+        "reference": "refs/raw/door.png",
+        "raw_glb": "raw_glb/SM_Dungeon_Door_A.glb",
+        "raw_backend": "recon-sdf-marchingcubes"
+      },
+      "geometry": {
+        "high_poly_tris": 70524,
+        "lod_tris": {
+          "LOD0": 1378,
+          "LOD1": 678,
+          "LOD2": 270,
+          "LOD3": 66
+        },
+        "collision_tris": 62,
+        "uv_islands_lod0": 218,
+        "decimate_passes": 1
+      },
+      "validation": {
+        "non_manifold_lod0": 0,
+        "non_manifold_all_lods": 0,
+        "watertight_lod0": true,
+        "lod_chain_complete": true,
+        "has_collision": true
+      },
+      "textures": {
+        "Albedo": "exports/Textures/T_Dungeon_Door_A_Albedo_2048.png",
+        "Normal": "exports/Textures/T_Dungeon_Door_A_Normal_2048.png",
+        "ORM": "exports/Textures/T_Dungeon_Door_A_ORM_2048.png"
+      },
+      "files": {
+        "models": [
+          "exports/Models/SM_Dungeon_Door_A_LOD0.fbx",
+          "exports/Models/SM_Dungeon_Door_A_LOD1.fbx",
+          "exports/Models/SM_Dungeon_Door_A_LOD2.fbx",
+          "exports/Models/SM_Dungeon_Door_A_LOD3.fbx",
+          "exports/Models/SM_Dungeon_Door_A_Collision.fbx"
+        ],
+        "godot": [
+          "exports/Godot/SM_Dungeon_Door_A_LOD0.glb",
+          "exports/Godot/SM_Dungeon_Door_A_LOD1.glb",
+          "exports/Godot/SM_Dungeon_Door_A_LOD2.glb",
+          "exports/Godot/SM_Dungeon_Door_A_LOD3.glb",
+          "exports/Godot/SM_Dungeon_Door_A_Collision.glb"
+        ]
+      }
+    },
+    {
+      "key": "chest",
+      "name": "SM_Dungeon_Chest_A",
+      "category": "prop",
+      "tags": [
+        "prop",
+        "interactive",
+        "container"
+      ],
+      "dimensions_m": [
+        1.0,
+        0.7,
+        0.8
+      ],
+      "source": {
+        "reference": "refs/raw/chest.png",
+        "raw_glb": "raw_glb/SM_Dungeon_Chest_A.glb",
+        "raw_backend": "recon-sdf-marchingcubes"
+      },
+      "geometry": {
+        "high_poly_tris": 59438,
+        "lod_tris": {
+          "LOD0": 1280,
+          "LOD1": 630,
+          "LOD2": 252,
+          "LOD3": 62
+        },
+        "collision_tris": 62,
+        "uv_islands_lod0": 149,
+        "decimate_passes": 1
+      },
+      "validation": {
+        "non_manifold_lod0": 0,
+        "non_manifold_all_lods": 0,
+        "watertight_lod0": true,
+        "lod_chain_complete": true,
+        "has_collision": true
+      },
+      "textures": {
+        "Albedo": "exports/Textures/T_Dungeon_Chest_A_Albedo_2048.png",
+        "Normal": "exports/Textures/T_Dungeon_Chest_A_Normal_2048.png",
+        "ORM": "exports/Textures/T_Dungeon_Chest_A_ORM_2048.png"
+      },
+      "files": {
+        "models": [
+          "exports/Models/SM_Dungeon_Chest_A_LOD0.fbx",
+          "exports/Models/SM_Dungeon_Chest_A_LOD1.fbx",
+          "exports/Models/SM_Dungeon_Chest_A_LOD2.fbx",
+          "exports/Models/SM_Dungeon_Chest_A_LOD3.fbx",
+          "exports/Models/SM_Dungeon_Chest_A_Collision.fbx"
+        ],
+        "godot": [
+          "exports/Godot/SM_Dungeon_Chest_A_LOD0.glb",
+          "exports/Godot/SM_Dungeon_Chest_A_LOD1.glb",
+          "exports/Godot/SM_Dungeon_Chest_A_LOD2.glb",
+          "exports/Godot/SM_Dungeon_Chest_A_LOD3.glb",
+          "exports/Godot/SM_Dungeon_Chest_A_Collision.glb"
+        ]
+      }
+    }
+  ]
+}

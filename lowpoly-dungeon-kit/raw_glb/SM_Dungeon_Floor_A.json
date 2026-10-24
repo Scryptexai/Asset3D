@@ -1,0 +1,20 @@
+{
+  "key": "floor",
+  "name": "SM_Dungeon_Floor_A",
+  "backend": "recon-sdf-marchingcubes",
+  "source_image": "refs/raw/floor.png",
+  "glb": "raw_glb/SM_Dungeon_Floor_A.glb",
+  "dims_m": [
+    4.0,
+    4.0,
+    0.35
+  ],
+  "raw_tris": 77052,
+  "raw_verts": 38528,
+  "watertight": true,
+  "textures": {
+    "albedo": "SM_Dungeon_Floor_A_raw_albedo.png",
+    "normal": "SM_Dungeon_Floor_A_raw_normal.png",
+    "orm": "SM_Dungeon_Floor_A_raw_orm.png"
+  }
+}

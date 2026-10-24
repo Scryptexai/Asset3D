@@ -1,0 +1,310 @@
+{
+  "summary": {
+    "assets": 5,
+    "passed": 5,
+    "errors": 0,
+    "warnings": 0
+  },
+  "reports": [
+    {
+      "name": "SM_Dungeon_Wall_A",
+      "key": "wall",
+      "errors": [],
+      "warnings": [],
+      "uv": {
+        "LOD0": 0.454,
+        "LOD1": 0.429,
+        "LOD2": 0.39,
+        "LOD3": 0.289
+      },
+      "tris": {
+        "LOD0": 1378,
+        "LOD1": 678,
+        "LOD2": 270,
+        "LOD3": 66
+      },
+      "collision": {
+        "fbx": 62,
+        "glb": 62
+      },
+      "textures": {
+        "Albedo": {
+          "ok": true,
+          "width": 2048,
+          "height": 2048,
+          "mean": [
+            0.143,
+            0.13,
+            0.125
+          ]
+        },
+        "Normal": {
+          "ok": true,
+          "width": 2048,
+          "height": 2048,
+          "mean": [
+            0.501,
+            0.499,
+            0.985
+          ],
+          "unit_length_p99": 1.0044348239898682,
+          "blue_mean": 0.9787129163742065
+        },
+        "ORM": {
+          "ok": true,
+          "width": 2048,
+          "height": 2048,
+          "mean": [
+            0.579,
+            0.538,
+            0.395
+          ],
+          "ao_mean": 0.5779020190238953,
+          "rough_mean": 0.5384547114372253,
+          "metal_mean": 0.39752641320228577
+        }
+      },
+      "passed": true
+    },
+    {
+      "name": "SM_Dungeon_Floor_A",
+      "key": "floor",
+      "errors": [],
+      "warnings": [],
+      "uv": {
+        "LOD0": 0.524,
+        "LOD1": 0.51,
+        "LOD2": 0.481,
+        "LOD3": 0.408
+      },
+      "tris": {
+        "LOD0": 1182,
+        "LOD1": 582,
+        "LOD2": 232,
+        "LOD3": 58
+      },
+      "collision": {
+        "fbx": 62,
+        "glb": 62
+      },
+      "textures": {
+        "Albedo": {
+          "ok": true,
+          "width": 2048,
+          "height": 2048,
+          "mean": [
+            0.187,
+            0.181,
+            0.173
+          ]
+        },
+        "Normal": {
+          "ok": true,
+          "width": 2048,
+          "height": 2048,
+          "mean": [
+            0.501,
+            0.501,
+            0.986
+          ],
+          "unit_length_p99": 1.004067301750183,
+          "blue_mean": 0.9826671481132507
+        },
+        "ORM": {
+          "ok": true,
+          "width": 2048,
+          "height": 2048,
+          "mean": [
+            0.596,
+            0.53,
+            0.419
+          ],
+          "ao_mean": 0.5937718749046326,
+          "rough_mean": 0.5302200317382812,
+          "metal_mean": 0.41768601536750793
+        }
+      },
+      "passed": true
+    },
+    {
+      "name": "SM_Dungeon_Pillar_A",
+      "key": "pillar",
+      "errors": [],
+      "warnings": [],
+      "uv": {
+        "LOD0": 0.327,
+        "LOD1": 0.316,
+        "LOD2": 0.289,
+        "LOD3": 0.222
+      },
+      "tris": {
+        "LOD0": 1476,
+        "LOD1": 726,
+        "LOD2": 290,
+        "LOD3": 72
+      },
+      "collision": {
+        "fbx": 62,
+        "glb": 62
+      },
+      "textures": {
+        "Albedo": {
+          "ok": true,
+          "width": 2048,
+          "height": 2048,
+          "mean": [
+            0.117,
+            0.111,
+            0.105
+          ]
+        },
+        "Normal": {
+          "ok": true,
+          "width": 2048,
+          "height": 2048,
+          "mean": [
+            0.501,
+            0.501,
+            0.996
+          ],
+          "unit_length_p99": 1.0039445161819458,
+          "blue_mean": 0.9926551580429077
+        },
+        "ORM": {
+          "ok": true,
+          "width": 2048,
+          "height": 2048,
+          "mean": [
+            0.398,
+            0.325,
+            0.256
+          ],
+          "ao_mean": 0.3963131904602051,
+          "rough_mean": 0.32429108023643494,
+          "metal_mean": 0.2567698359489441
+        }
+      },
+      "passed": true
+    },
+    {
+      "name": "SM_Dungeon_Door_A",
+      "key": "door",
+      "errors": [],
+      "warnings": [],
+      "uv": {
+        "LOD0": 0.509,
+        "LOD1": 0.477,
+        "LOD2": 0.417,
+        "LOD3": 0.303
+      },
+      "tris": {
+        "LOD0": 1378,
+        "LOD1": 678,
+        "LOD2": 270,
+        "LOD3": 66
+      },
+      "collision": {
+        "fbx": 62,
+        "glb": 62
+      },
+      "textures": {
+        "Albedo": {
+          "ok": true,
+          "width": 2048,
+          "height": 2048,
+          "mean": [
+            0.214,
+            0.177,
+            0.153
+          ]
+        },
+        "Normal": {
+          "ok": true,
+          "width": 2048,
+          "height": 2048,
+          "mean": [
+            0.496,
+            0.499,
+            0.969
+          ],
+          "unit_length_p99": 1.0049858093261719,
+          "blue_mean": 0.9611716866493225
+        },
+        "ORM": {
+          "ok": true,
+          "width": 2048,
+          "height": 2048,
+          "mean": [
+            0.691,
+            0.578,
+            0.462
+          ],
+          "ao_mean": 0.6879122853279114,
+          "rough_mean": 0.5799549221992493,
+          "metal_mean": 0.4652784466743469
+        }
+      },
+      "passed": true
+    },
+    {
+      "name": "SM_Dungeon_Chest_A",
+      "key": "chest",
+      "errors": [],
+      "warnings": [],
+      "uv": {
+        "LOD0": 0.369,
+        "LOD1": 0.351,
+        "LOD2": 0.31,
+        "LOD3": 0.231
+      },
+      "tris": {
+        "LOD0": 1280,
+        "LOD1": 630,
+        "LOD2": 252,
+        "LOD3": 62
+      },
+      "collision": {
+        "fbx": 62,
+        "glb": 62
+      },
+      "textures": {
+        "Albedo": {
+          "ok": true,
+          "width": 2048,
+          "height": 2048,
+          "mean": [
+            0.161,
+            0.139,
+            0.126
+          ]
+        },
+        "Normal": {
+          "ok": true,
+          "width": 2048,
+          "height": 2048,
+          "mean": [
+            0.5,
+            0.499,
+            0.989
+          ],
+          "unit_length_p99": 1.004128336906433,
+          "blue_mean": 0.9859694242477417
+        },
+        "ORM": {
+          "ok": true,
+          "width": 2048,
+          "height": 2048,
+          "mean": [
+            0.489,
+            0.384,
+            0.353
+          ],
+          "ao_mean": 0.4883681535720825,
+          "rough_mean": 0.38275808095932007,
+          "metal_mean": 0.35464102029800415
+        }
+      },
+      "passed": true
+    }
+  ]
+}

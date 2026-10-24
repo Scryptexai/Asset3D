@@ -1,0 +1,20 @@
+{
+  "key": "chest",
+  "name": "SM_Dungeon_Chest_A",
+  "backend": "recon-sdf-marchingcubes",
+  "source_image": "refs/raw/chest.png",
+  "glb": "raw_glb/SM_Dungeon_Chest_A.glb",
+  "dims_m": [
+    1.0,
+    0.7,
+    0.8
+  ],
+  "raw_tris": 59444,
+  "raw_verts": 29724,
+  "watertight": true,
+  "textures": {
+    "albedo": "SM_Dungeon_Chest_A_raw_albedo.png",
+    "normal": "SM_Dungeon_Chest_A_raw_normal.png",
+    "orm": "SM_Dungeon_Chest_A_raw_orm.png"
+  }
+}

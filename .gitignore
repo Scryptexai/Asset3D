@@ -1,0 +1,16 @@
+# Pipeline scratch space (derived, regenerable)
+lowpoly-dungeon-kit/temp/
+temp/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# NOTE: exports/, raw_glb/ and renders/ are intentionally tracked — they are the
+# product. Binaries are kept small by design (WebP-embedded GLBs, FBX).
